@@ -1,6 +1,5 @@
 #include <iostream>
 
-//proper sdl header inclusion as per documentation
 #include <SDL.h>
 
 using namespace std;
