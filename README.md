@@ -16,6 +16,13 @@ Clone this project and cd into the directory. Then issue this command:
 
 ``clang++ main.cpp sdl-config --libs --cflag``
 
+## Todo
+
+- [x] Make the program GCC compatible (Remove clang optimization flag)!
+- [ ] Add instruction to hookup through SDDM. 
+- [ ] Optimize performance.
+- [x] Amaze my girlfriend! 😍 😘 
+
 ## Dedication
 
 As with everything I append with cider, this is a project dedicated to my gf, whom I call "Half a pint cider"!
