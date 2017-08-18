@@ -1,9 +1,6 @@
 #include <iostream>
 
-// Either of these work
-
-//#include <SDL.h>
-#include "SDL2/SDL.h"
+#include <SDL.h>
 
 using namespace std;
 
