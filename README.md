@@ -1,4 +1,4 @@
-# Cider Fire - Sexy fire particle in SDDM 👹👯‍👀
+# Cider Fire - Sexy Fiery particle in SDDM 👹👯‍👀
 
 Cider fire is a particle based fire simulation based on **SDL**. I am making this program as a part of my semester final software project.
 Eventually I want to hook the entire application through SDDM so that I can see pretty fire before logging into X (or wayland)! 
