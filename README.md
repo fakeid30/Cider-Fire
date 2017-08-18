@@ -21,7 +21,7 @@ Clone this project and cd into the directory. Then issue this command:
 - [x] Make the program GCC compatible (Remove clang optimization flag)!
 - [ ] Add instruction to hookup through SDDM. 
 - [ ] Optimize performance.
-- [x] Amaze my girlfriend! :heart_eyes: 😘
+- [x] Amaze my girlfriend! 😍 😘 
 
 ## Dedication
 
