@@ -1,6 +1,11 @@
-CMakeCache.txt
 CMakeFiles
 CMakeScripts
 Makefile
-cmake_install.cmake
 install_manifest.txt
+cmake-build-debug/
+.directory
+.idea/.name
+.idea/Cider Fire.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
