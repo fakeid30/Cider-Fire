@@ -25,4 +25,4 @@ Clone this project and cd into the directory. Then issue this command:
 
 ## Dedication
 
-As with everything I append with cider, this is a project dedicated to my gf, whom I call "Half a pint cider"!
+As with everything I append with cider, this is a project dedicated to my gf, whom I call "Half a pint cider", Laura Ingalls Referece, get it?
