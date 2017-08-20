@@ -30,6 +30,9 @@ int main() {
     SDL_Event event;
 
     while (!quit) {
+//        Update particles
+//        Draw particles
+//        Check for messages or events
 
         while (SDL_PollEvent(&event)) {
             if (event.type == SDL_QUIT) {
