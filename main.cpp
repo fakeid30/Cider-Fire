@@ -1,7 +1,4 @@
 #include <iostream>
-
-//proper sdl header inclusion as per documentation
-#include <SDL.h>
 #include "Screen.h"
 
 using namespace std;
