@@ -52,6 +52,8 @@ int main() {
 
     buffer[30000] = 0x0080FFFF;
 
+    // Same as memset
+
     for (int i = 0; i < SCREEN_WIDTH * SCREEN_HEIGHT; i++) {
         buffer[i] = 0xFFFFFFFF;
     }
