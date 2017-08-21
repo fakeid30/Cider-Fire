@@ -8,7 +8,8 @@ int main() {
 
     Screen screen;
 
-    if (screen.init() == false) {
+//    if (screen.init() == false) {
+    if (!screen.init()) {
         cout << "Error" << endl;
     }
 
