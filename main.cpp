@@ -2,29 +2,31 @@
 
 //proper sdl header inclusion as per documentation
 #include <SDL.h>
+#include "Screen.h"
 
 using namespace std;
+using namespace ciderFireNamespace;
 
 int main() {
 
-    Screen Screen;
+    Screen screen;
 
-   bool quit = false;
+    if (screen.init() == false) {
+        cout << "Error" << endl;
+    }
 
-    SDL_Event event;
 
-    while (!quit) {
+    while (true) {
 //        Update particles
 //        Draw particles
 //        Check for messages or events
 
-        while (SDL_PollEvent(&event)) {
-            if (event.type == SDL_QUIT) {
-                quit = true;
-            }
+        if (screen.processEvents() == false) {
+            break;
         }
     }
 
+    screen.close();
 
     return 0;
 }

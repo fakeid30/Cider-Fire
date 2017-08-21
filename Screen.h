@@ -23,7 +23,7 @@ namespace ciderFireNamespace {
     public:
         Screen();
         bool init();
-        bool processEvewnts();
+        bool processEvents();
         void close();
 
     };

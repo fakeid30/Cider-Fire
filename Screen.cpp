@@ -70,9 +70,17 @@ namespace ciderFireNamespace {
         return true;
     }
 
-    bool Screen::processEvewnts() {
+    bool Screen::processEvents() {
 
-        return false;
+        SDL_Event event;
+
+        while (SDL_PollEvent(&event)) {
+            if (event.type == SDL_QUIT) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     void Screen::close() {
