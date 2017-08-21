@@ -16,7 +16,6 @@ int main() {
     while (true) {
 //        Update particles
 //        Draw particles
-//        Check for messages or events
 
         if (screen.processEvents() == false) {
             break;
