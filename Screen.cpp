@@ -47,7 +47,6 @@ namespace ciderFireNamespace {
             return false;
         }
 
-        //RGBA 8888 = 32
 
         Uint32 *buffer = new Uint32[SCREEN_WIDTH * SCREEN_HEIGHT];
 
