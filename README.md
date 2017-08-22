@@ -14,7 +14,7 @@ Eventually I want to hook the entire application through SDDM so that I can see 
 
 Clone this project and cd into the directory. Then issue this command:
 
-``clang++ main.cpp sdl-config --libs --cflag``
+``cd src/ && clang++ main.cpp sdl-config --libs --cflag``
 
 ## Todo
 
