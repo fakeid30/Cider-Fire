@@ -5,12 +5,14 @@
 #pragma once
 
 namespace ciderFireNamespace {
-    class Particle {
-    private:
+    struct Particle {
+        double m_x;
+        double m_y;
 
 
     public:
         Particle();
+
         virtual ~Particle();
 
     };
