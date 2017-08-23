@@ -5,7 +5,7 @@
 #include "Swarm.h"
 
 namespace ciderFireNamespace {
-    Swarm::Swarm(): lastTime(0) {
+    Swarm::Swarm() : lastTime(0) {
         m_pParticles = new Particle[NPARTICLES];
     }
 

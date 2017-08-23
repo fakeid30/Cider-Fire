@@ -29,7 +29,7 @@ namespace ciderFireNamespace {
 
     void Particle::update(int interval) {
 
-        m_direction += interval * 0.0003;
+        m_direction += interval * 0.0002;
 
         double xspeed = m_speed * cos(m_direction);
         double yspeed = m_speed * sin(m_direction);
@@ -38,7 +38,11 @@ namespace ciderFireNamespace {
         m_y += yspeed * interval;
 
         if (m_x < -1 || m_x > 1 || m_y < -1 || m_y > 1) {
+            init();
+        }
 
+        if (rand() < RAND_MAX / 100) {
+            init();
         }
     }
 
