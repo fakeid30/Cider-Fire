@@ -10,3 +10,7 @@ cmake-build-debug/
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
+
+Testing
+compile_commands.json
+CTestTestfile.cmake
