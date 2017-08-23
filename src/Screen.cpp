@@ -83,9 +83,24 @@ namespace ciderFireNamespace {
 
                         if (currentX >= 0 && currentX < SCREEN_WIDTH && currentY >= 0 && currentY < SCREEN_HEIGHT) {
                             Uint32 color = m_buffer2[currentY * SCREEN_WIDTH + currentX];
+
+                            Uint8 red = color >> 24;
+                            Uint8 green = color >> 16;
+                            Uint8 blue = color >> 8;
+
+                            redTotal += red;
+                            greenTotal += green;
+                            blueTotal += blue;
+
                         }
                     }
                 }
+
+                Uint8 red = redTotal / 9;
+                Uint8 green = greenTotal / 9;
+                Uint8 blue = blueTotal / 9;
+
+                setPixel(x, y, red, green, blue);
 
             }
         }
