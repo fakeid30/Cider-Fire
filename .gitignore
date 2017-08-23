@@ -3,6 +3,7 @@ CMakeScripts
 Makefile
 install_manifest.txt
 CMakeLists.txt
+cmake/FindSDL2.cmake
 cmake-build-debug/
 .directory
 .idea/.name
