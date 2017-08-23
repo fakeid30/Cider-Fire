@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdlib.h>
 #include "Screen.h"
 #include "Swarm.h"
 
