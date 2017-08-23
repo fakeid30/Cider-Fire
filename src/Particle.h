@@ -18,7 +18,7 @@ namespace ciderFireNamespace {
 
         virtual ~Particle();
 
-        void update();
+        void update(int interval);
 
     };
 
