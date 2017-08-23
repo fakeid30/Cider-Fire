@@ -24,6 +24,10 @@ int main() {
 //        Update particles
 //        Draw particles
         int elapsed = SDL_GetTicks();
+
+        screen.clear();
+        swarm.update();
+
         auto green = (unsigned char) ((1 + sin(elapsed * 0.0001)) * 128);
         auto red = (unsigned char) ((1 + sin(elapsed * 0.0002)) * 128);
         auto blue = (unsigned char) ((1 + sin(elapsed * 0.0003)) * 128);
